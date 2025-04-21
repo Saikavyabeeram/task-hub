@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEVN Task Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📝 Task List</h1>
+    <button id="theme-toggle">🌙 Toggle Theme</button>
+  </header>
+
+  <main>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Enter a new task..." />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div id="controls">
+      <button id="filter-done">Show Done Tasks</button>
+      <span id="counter">Total: 0</span>
+    </div>
+
+    <ul id="task-list"></ul>
+  </main>
+
+  <footer>
+    <p>Built with ❤️ for Milestone 2</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
