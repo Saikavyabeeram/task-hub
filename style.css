@@ -1,0 +1,71 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    padding: 2rem;
+    margin: 0;
+    color: #333;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  header, footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.6rem 1rem;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Task List Styling */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+  }
+  
+  .task-list li {
+    background-color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .task-list li:hover {
+    transform: translateX(5px);
+    background-color: #eafaf1;
+  }
+  
