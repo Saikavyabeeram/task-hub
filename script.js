@@ -102,3 +102,5 @@ themeToggle.addEventListener('click', toggleTheme);
 
 loadTasksFromStorage();
 applyThemeFromStorage();
+
+
